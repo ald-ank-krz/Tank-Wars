@@ -8,7 +8,7 @@ public class Tank extends GameObject
 //trzeba dopisaæ mutator i akcesor, za pomoca których bêdzie mo¿na dostac siê do 
 //pola przechowuj¹cego liczbê pozosta³ych ¿yæ
 {
-	int livesLeft;
+	private int livesLeft;
 	Tank()
 	{
 		livesLeft=5;
