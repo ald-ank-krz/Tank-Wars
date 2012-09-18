@@ -1,23 +1,30 @@
 package pl.aa.tankwars.engine;
 
 import pl.aa.tankwars.shared.GameEngine;
-
-public class Engine implements GameEngine{
+/**
+ * klasa - arbiter, która bêdzie odpowiedzialna za sprawdzanie poprawnoœci przebiegu
+ * rozgrywki
+ * @author Ania
+ *
+ */
+public class Engine implements GameEngine
+{
+	public static final int DEFAULT_LIVE = 5;
+	public static final int DEFAULT_TANKS = 5;
 	private int size;
 	private int livesNumber;
 	private int tanksNumber;
 	//private BoardUpdateListener l;
-	public void setEngineParams(int size){
-		this.size = size;
-		this.livesNumber=5;
-		this.tanksNumber=5;
+	public void setEngineParams(int size)
+	{
+		setEngineParams(size, DEFAULT_LIVE);
 	}
-	public void setEngineParams(int size, int livesNumber){
-		this.size = size;
-		this.livesNumber=livesNumber;
-		this.tanksNumber=5;
+	public void setEngineParams(int size, int livesNumber)
+	{
+		setEngineParams(size, livesNumber, DEFAULT_TANKS);
 	}
-	public void setEngineParams(int size, int livesNumber, int tanksNumber){
+	public void setEngineParams(int size, int livesNumber, int tanksNumber)
+	{
 		this.size = size;
 		this.livesNumber=livesNumber;
 		this.tanksNumber=tanksNumber;
@@ -25,7 +32,8 @@ public class Engine implements GameEngine{
 	//public void setBoardUpdateListener(BoardUpdateListener l){
 	//
 	//}
-	public void checkResult(){
+	public void checkResult()
+	{
 		//
 	}
 }

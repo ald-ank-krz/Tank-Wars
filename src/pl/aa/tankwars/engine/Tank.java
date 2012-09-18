@@ -1,17 +1,17 @@
 package pl.aa.tankwars.engine;
 
+/**
+ * klasa przechowuje takie dane dotycz¹ce czo³gu, jak liczba pozosta³ych ¿yæ i w³aœciciel
+ * @author Ania
+ *
+ */
 public class Tank extends GameObject
-
-//klasa przechowuje dane o czo³gu, obiekt Tank mo¿na utworzyæ z domyœl¹ liczb¹ ¿yæ pocz¹tkowych 5 lub
-//podaj¹c inn¹ liczbê ¿yæ pocz¹tkowych
-//pisanie komantarzy dzia³a jak metoda kaczuszki, wiêc w³aœnie wpad³am na pomys³, ¿e
-//trzeba dopisaæ mutator i akcesor, za pomoca których bêdzie mo¿na dostac siê do 
-//pola przechowuj¹cego liczbê pozosta³ych ¿yæ
 {
 	private int livesLeft;
+	private String owner;
 	Tank()
 	{
-		livesLeft=5;
+		livesLeft=Engine.DEFAULT_LIVE;
 	}
 	Tank(int startLives)
 	{
