@@ -8,5 +8,10 @@ package pl.aa.tankwars.engine;
  */
 public class Action 
 {
-
+	private Tank tank;
+	private int[] newField;
+	public Action()
+	{
+		
+	}
 }

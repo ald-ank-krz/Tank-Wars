@@ -18,13 +18,30 @@ public class Tank extends GameObject
 		livesLeft=startLives;
 	}
 	
+	/**
+	 * metoda ustawia now¹ liczbê ¿yæ... chyba niepotrzebna
+	 * @param livesLeft
+	 */
 	public void setLivesLeft(int livesLeft)
 	{
 		this.livesLeft = livesLeft;
 	}
 	
+	/**
+	 * metoda zwraca aktualn¹ liczbê ¿yæ, bêdzie potrzebna podczas sprawdzania, czy czo³g ¿yje
+	 * @return
+	 */
 	public int getLivesLeft()
 	{
 		return livesLeft;
 	}
+	
+	/**
+	 * metoda zmniejsza liczbê ¿yæ o 1 po trafieniu strza³em
+	 */
+	public void decreaseLivesLeft()
+	{
+		livesLeft--;
+	}
+	
 }

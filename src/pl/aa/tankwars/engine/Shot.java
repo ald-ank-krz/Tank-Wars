@@ -6,5 +6,8 @@ package pl.aa.tankwars.engine;
  */
 public class Shot extends Action
 {
-
+	public void setShotPosition (int[] newField)
+	{
+		//tu bêdzie sprawdzanie, kto dosta³ strza³ i odejmowanie ¿ycia
+	}
 }
