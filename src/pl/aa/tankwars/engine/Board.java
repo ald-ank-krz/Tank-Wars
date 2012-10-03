@@ -1,6 +1,6 @@
 package pl.aa.tankwars.engine;
 /**
- * klasa, która przechowuje parametry planszy
+ * klasa, ktÃ³ra przechowuje parametry planszy
  * @author Ania
  */
 public class Board 

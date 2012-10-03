@@ -1,7 +1,7 @@
 package pl.aa.tankwars.engine;
 
 /**
- * klasa przechowuje takie dane dotycz¹ce czo³gu, jak liczba pozosta³ych ¿yæ i w³aœciciel
+ * klasa przechowuje takie dane dotyczÄ…ce czoÅ‚gu, jak liczba pozostaÅ‚ych Å¼yÄ‡ i wÅ‚aÅ›ciciel
  * @author Ania
  *
  */
@@ -19,7 +19,7 @@ public class Tank extends GameObject
 	}
 	
 	/**
-	 * metoda ustawia now¹ liczbê ¿yæ... chyba niepotrzebna
+	 * metoda ustawia nowÄ… liczbÄ™ Å¼yÄ‡... chyba niepotrzebna
 	 * @param livesLeft
 	 */
 	public void setLivesLeft(int livesLeft)
@@ -28,7 +28,7 @@ public class Tank extends GameObject
 	}
 	
 	/**
-	 * metoda zwraca aktualn¹ liczbê ¿yæ, bêdzie potrzebna podczas sprawdzania, czy czo³g ¿yje
+	 * metoda zwraca aktualnÄ… liczbÄ™ Å¼yÄ‡, bÄ™dzie potrzebna podczas sprawdzania, czy czoÅ‚g Å¼yje
 	 * @return
 	 */
 	public int getLivesLeft()
@@ -37,7 +37,7 @@ public class Tank extends GameObject
 	}
 	
 	/**
-	 * metoda zmniejsza liczbê ¿yæ o 1 po trafieniu strza³em
+	 * metoda zmniejsza liczbÄ™ Å¼yÄ‡ o 1 po trafieniu strzaÅ‚em
 	 */
 	public void decreaseLivesLeft()
 	{

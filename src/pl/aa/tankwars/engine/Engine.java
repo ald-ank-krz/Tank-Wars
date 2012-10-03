@@ -2,7 +2,7 @@ package pl.aa.tankwars.engine;
 
 import pl.aa.tankwars.shared.GameEngine;
 /**
- * klasa - arbiter, która bêdzie odpowiedzialna za sprawdzanie poprawnoœci przebiegu
+ * klasa - arbiter, ktÃ³ra bÄ™dzie odpowiedzialna za sprawdzanie poprawnoÅ›ci przebiegu
  * rozgrywki
  * @author Ania
  *

@@ -1,6 +1,6 @@
 package pl.aa.tankwars.engine;
 /**
- * klasa reprezentuj¹ca pole zajête przez kamieñ
+ * klasa reprezentujÄ…ca pole zajÄ™te przez kamieÅ„
  * @author Ania
  *
  */

@@ -1,9 +1,9 @@
 package pl.aa.tankwars.engine;
 
 /**
- * jest to klasa, która bêdzie przechowywa³a dane dotycz¹ce jakiegoœ obiektu gry,
- * z tej klasy bêd¹ dziedziczyæ klasy przedstawiaj¹ce poszczególne obiekty, jak Tank,
- * lub StoneField lub w przysz³oœci inny obiekt, który mo¿e byæ elementem planszy
+ * jest to klasa, ktÃ³ra bÄ™dzie przechowywaÄ‡ dane dotyczÄ…ce jakiegoÅ› obiektu gry,
+ * z tej klasy bÄ™dÄ… dziedziczyÄ‡ klasy przedstawiajÄ…ce poszczegÃ³lne obiekty, jak Tank,
+ * lub StoneField lub w przyszÅ‚oÅ›ci inny obiekt, ktÃ³ry moÅ¼e byÄ‡ elementem planszy
  * @author Ania
  *
  */
@@ -11,7 +11,7 @@ public class GameObject
 {
 	private int[] position;
 	/**
-	 * Ustawawia pozycjê obiektu
+	 * Ustawawia pozycjÄ™ obiektu
 	 * @param position pozycja do ustawienia
 	 */
 	public void setPosition(int[] position)
@@ -21,7 +21,7 @@ public class GameObject
 	
 	/**
 	 * 
-	 * @return zwraca pozycjê obiektu
+	 * @return zwraca pozycjÄ™ obiektu
 	 */
 	public int[] getPosition()
 	{

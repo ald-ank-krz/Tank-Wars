@@ -1,7 +1,7 @@
 package pl.aa.tankwars.engine;
 
 /**
- * klasa reprezentuje akcje, jakie mo¿e wykonaæ obiekt planszy, z tej klasy dziedzicz¹
+ * klasa reprezentuje akcje, jakie moÅ¼e wykonaÄ‡ obiekt planszy, z tej klasy dziedziczÄ…
  * klasy Shot i Move
  * @author Ania
  *
