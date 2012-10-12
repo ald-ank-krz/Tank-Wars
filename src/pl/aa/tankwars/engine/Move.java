@@ -6,8 +6,5 @@ package pl.aa.tankwars.engine;
  */
 public class Move extends Action
 {
-	public void setNewTankPosition(int[] newField)
-	{
-		//tu będzie sprawdzanie, czy ruch jest możliwy
-	}
+	
 }
